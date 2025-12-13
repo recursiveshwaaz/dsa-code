@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class LoopDemo {
+    public static void main(String[] args) {
+        System.out.println("hello");
+
+        int arr[] = new int[5];
+        int arr1[] = {2,4,5,6,7,8,9} ;
+
+        for(int data : arr1){
+            System.out.println(data);
+        }
+      print(arr1);
+        /// object bna kar without static k call kar sakte hai .
+    }
+    public static void print(int arr[]){
+        System.out.println(Arrays.toString(arr));
+    }
+}
